@@ -1,20 +1,20 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .mainText {
@@ -30,4 +30,19 @@ body {
 .mainSubTitle {
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+.smallText {
+    text-align: right;
+    color: gray;
+}
+
+.makeYourOwnDiv {
+    background: grey;
+    margin: 0;
+}
+
+.makeYourOwnText {
+    margin: 100px 0 20px 0;
+    color: white;
 }
