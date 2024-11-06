@@ -3,3 +3,32 @@
 @{
 }
 <h1>Custom pizza page</h1>
+
+<div class="text-center container">
+    <h1>Create your own pizza!</h1>
+
+    <form method="post" class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-5 alert-light col-4">
+        <div class="order-pizza">
+            <input type="text" asp-for="Pizza.PizzaName" placeholder="Pizza Name" />
+            <br />
+            <input type="checkbox" asp-for="Pizza.TomatoSouce" placeholder="Tomato Sauce" /> Tomato Sauce
+            <br />
+            <input type="checkbox" asp-for="Pizza.Cheese" placeholder="Cheese" /> Cheese
+            <br />
+            <input type="checkbox" asp-for="Pizza.Peperoni" placeholder="Peperoni" /> Peperoni
+            <br />
+            <input type="checkbox" asp-for="Pizza.Ham" placeholder="Ham" /> Ham
+            <br />
+            <input type="checkbox" asp-for="Pizza.Mushroom" placeholder="Mushroom" /> Mushroom
+            <br />
+            <input type="checkbox" asp-for="Pizza.Tuna" placeholder="Tuna" /> Tuna
+            <br />
+            <input type="checkbox" asp-for="Pizza.Beef" placeholder="Beef" /> Beef
+            <br />
+        </div>
+
+        <div class="d-flex justify-content-start">
+            <button class="btn btn-primary mt-1" type="submit">Order my pizza</button>
+        </div>
+    </form>
+</div>
